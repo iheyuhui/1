@@ -158,11 +158,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ugg/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
     vendor/xiaomi/ugg/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/xiaomi/ugg/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/xiaomi/ugg/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/xiaomi/ugg/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
+    vendor/xiaomi/ugg/proprietary/lib/libMiCameraHal.so:system/lib/libMiCameraHal.so \
     vendor/xiaomi/ugg/proprietary/lib/hw/lights.msm8937.so:system/lib/hw/lights.msm8937.so \
     vendor/xiaomi/ugg/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/ugg/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
+    vendor/xiaomi/ugg/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/xiaomi/ugg/proprietary/lib/libsigchain.so:system/lib/libsigchain.so \
     vendor/xiaomi/ugg/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
+    vendor/xiaomi/ugg/proprietary/lib64/libsigchain.so:system/lib64/libsigchain.so \
     vendor/xiaomi/ugg/proprietary/lib64/hw/fingerprint.msm8937.so:system/lib64/hw/fingerprint.msm8937.so \
     vendor/xiaomi/ugg/proprietary/lib64/hw/fingerprint.goodix.default.so:system/lib64/hw/fingerprint.goodix.default.so \
     vendor/xiaomi/ugg/proprietary/lib64/hw/lights.msm8937.so:system/lib64/hw/lights.msm8937.so \
@@ -1940,7 +1945,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ugg/proprietary/vendor/lib/libmmcamera_sony_imx378_eeprom.so:system/vendor/lib/libmmcamera_sony_imx378_eeprom.so \
     vendor/xiaomi/ugg/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
     vendor/xiaomi/ugg/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
-    vendor/xiaomi/ugg/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:system/vendor/lib/libmmcamera_sunny_8865_eeprom.so \
     vendor/xiaomi/ugg/proprietary/vendor/lib/libmmcamera_sunny_d4s01a_eeprom.so:system/vendor/lib/libmmcamera_sunny_d4s01a_eeprom.so \
     vendor/xiaomi/ugg/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so:system/vendor/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so \
     vendor/xiaomi/ugg/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so:system/vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so \
@@ -2304,9 +2308,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ugg/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/xiaomi/ugg/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/xiaomi/ugg/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
+        vendor/xiaomi/ugg/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/xiaomi/ugg/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/xiaomi/ugg/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
+    vendor/xiaomi/ugg/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
+    vendor/xiaomi/ugg/proprietary/lib64/libmorpho_panorama.so:system/lib64/libmorpho_panorama.so \
     vendor/xiaomi/ugg/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/xiaomi/ugg/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
+    vendor/xiaomi/ugg/proprietary/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
+    vendor/xiaomi/ugg/proprietary/lib64/libmorpho_panorama.so:system/lib64/libmorpho_panorama.so \
     vendor/xiaomi/ugg/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/xiaomi/ugg/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/xiaomi/ugg/proprietary/vendor/lib64/libmdsprpc.so:system/vendor/lib64/libmdsprpc.so \
