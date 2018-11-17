@@ -93,7 +93,6 @@ LensInfo : Information of the lens present in the module.
 		<EepromName>s5k3l8_ohp0502_ofilm</EepromName>
 		<FlashName>gpio</FlashName>
 		<ActuatorName>dw9714</ActuatorName>
-		<ChromatixName_india>s5k3l8_ohp0502_ofilm_d6_chromatix_india</ChromatixName_india>
 		<ChromatixName>s5k3l8_ohp0502_ofilm_d6_chromatix</ChromatixName>
 		<ModesSupported>1</ModesSupported>
 		<Position>BACK</Position>
